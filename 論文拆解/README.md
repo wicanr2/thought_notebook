@@ -8,4 +8,4 @@
 
 ## 2026
 
-- [2026-06-25｜In-Context World Modeling for Robotic Control](./2026/2026-06-25/README.md)
+- [2026-06-25｜Learning Action Priors for Cross-embodiment Robot Manipulation](./2026/2026-06-25/README.md)
