@@ -26,6 +26,11 @@
 - [GitHub Actions billing：官方計費文件的結構拆解](./文章拆解/2026/2026-06-25/02-github-actions-billing-文件結構拆解.md)
 - [第一性原理的陷阱：工程思維誤讀人性](./文章拆解/2026/2026-06-25/01-第一性原理的陷阱-工程思維誤讀人性.md)
 
+### 論文拆解
+
+- 最新日期：[2026-06-25](./論文拆解/2026/2026-06-25/README.md)
+- 近期：[Learning Action Priors for Cross-embodiment Robot Manipulation](./論文拆解/2026/2026-06-25/01-learning-action-priors-cross-embodiment-robot-manipulation.md)
+
 ### 近期快速連結（一個月內）
 
 - [2026-06-25 新聞拆解索引](./新聞拆解/2026/2026-06-25/README.md)
