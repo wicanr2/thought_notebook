@@ -1,7 +1,7 @@
 # 2026-06-25 新聞拆解索引
 
-檢索時間：2026-06-25 UTC  
-工作目標：從近 24–48 小時內的經濟、AI、AMR、科技與產業新聞中，挑選最多 2 篇作為「文章結構與第一性原理」拆解樣本。
+檢索時間：2026-06-25 Asia/Taipei  
+工作目標：從近 24–48 小時內的經濟、AI、AMR、科技與產業新聞中，挑選最多 4 篇作為「文章結構與第一性原理」拆解樣本。
 
 ## 今日入選
 
@@ -23,28 +23,46 @@
 - 筆記：[`02-歐洲反推華府晶片戰.md`](./02-歐洲反推華府晶片戰.md)
 - 入選理由：篇幅短，但濃縮了出口管制、盟友協調、ASML 瓶頸地位與中國市場依賴。它適合拆解「brief 如何用少量材料呈現地緣經濟衝突」，也能抽象成出口管制的三方成本模型。
 
+### 3. 新漢攻AI機器人 功能安全控制器Q4量產
+
+- 來源：自由財經
+- 作者：方韋傑
+- 日期：2026-06-24 15:09
+- URL：https://ec.ltn.com.tw/article/breakingnews/5482530
+- 筆記：[`03-新漢攻-ai-機器人功能安全控制器.md`](./03-新漢攻-ai-機器人功能安全控制器.md)
+- 入選理由：這篇把 AI 機器人從概念題材拉回落地瓶頸：運動控制、功能安全、資安與認證。它適合拆解「最後一哩路」供應鏈位置如何被財經新聞寫成量產與訂單敘事。
+
+### 4. 能率集團轉投資有成 Agility Robotics將於美股掛牌
+
+- 來源：聯合新聞網／經濟日報
+- 作者：陳昱翔
+- 日期：2026-06-24 15:24
+- URL：https://udn.com/news/story/7240/9585811
+- 筆記：[`04-agility-robotics-掛牌與人形機器人資本化.md`](./04-agility-robotics-掛牌與人形機器人資本化.md)
+- 入選理由：這篇把 Agility Robotics 掛牌事件轉成台灣供應鏈與轉投資敘事，很適合拆解「新興科技如何從技術故事變成資本市場估值故事」。
+
 ## 候選清單與取捨理由
 
 | 候選 | 來源 | 日期 | 取捨 |
 |---|---|---:|---|
 | Scientist publishes fresh doubts over Microsoft's quantum claims | BBC | 2026-06-24 | 很值得追，但同題 The Verge / Nature 線索需要更完整讀原論文才適合拆，今日先未選，避免只做表層爭議摘要。 |
 | A new paper argues Microsoft exaggerated its quantum claims a year ago | The Verge | 2026-06-24 | 與 BBC 同題；文章可能適合拆「科學主張如何被公司敘事包裝」，但需更多原始論文與 Microsoft 回應脈絡。 |
-| Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections | MIT Technology Review | 2026-06-24 | AMR／公共衛生相關度高，題材有趣；但今天能源與半導體兩篇的產業結構啟發更強。 |
-| Samsung opens ChatGPT Enterprise and Codex access after AI restrictions | AI News | 2026-06-24 | 可討論企業 AI 治理從禁止到受控開放，但來源較偏產業快訊，文章敘事結構不如入選兩篇可拆。 |
+| Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections | MIT Technology Review | 2026-06-24 | AMR／公共衛生相關度高，題材有趣；但今天能源、半導體、AI 機器人控制器、人形機器人資本化四篇的產業結構啟發更直接。 |
+| Samsung opens ChatGPT Enterprise and Codex access after AI restrictions | AI News | 2026-06-24 | 可討論企業 AI 治理從禁止到受控開放，但來源較偏產業快訊，文章敘事結構不如入選文章可拆。 |
 | Companies are scrambling to stop employees from maxing out AI budgets with small tasks | TechCrunch | 2026-06-24 | 「token rationing」是好概念，值得未來追；但需更多公司案例與成本數據才能形成高品質第一性原理拆解。 |
 | AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient | TechCrunch | 2026-06-24 | 題目有認知反差，但以單一資料來源為主，可能更適合等完整報告或多源交叉驗證後再拆。 |
-| Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood | TechCrunch | 2026-06-24 | AI 晶片公司財務與市場預期值得看，但若只基於單日股價反應，容易變成市場新聞摘要。 |
-| Google is finally opening the Play Store to outside payments | The Verge | 2026-06-24 | 平台反壟斷重要，但需要法院命令與費率結構細節，今日未深入。 |
 
 ## 今日觀察
 
-今天最有價值的共同主題是：**技術系統的瓶頸常常不在表面產品，而在被視為背景的約束。**
+今天最有價值的共同主題是：**技術系統真正的瓶頸常常不在表面產品，而在被視為背景的邊界條件。**
 
 - 電力系統的瓶頸不是只有裝置容量，而是冷卻、河水溫度、尖峰需求與法規邊界。
 - 晶片供應鏈的瓶頸不是只有晶片本身，而是微影設備與盟友政策協調。
+- AI 機器人商業化的瓶頸不是只有模型，而是控制、安全、資安、認證與零組件供應。
+- 人形機器人資本化的瓶頸不是只有故事夠不夠大，而是量產、部署數據、成本下降與公開市場能否接受估值假設。
 
-這兩篇剛好形成一組對照：一篇是物理環境約束，一篇是地緣政治約束。兩者都提醒我，分析產業新聞時不要只看「誰推出了什麼」，要問：**誰控制了不可替代的邊界條件？**
+這四篇剛好形成一組對照：物理環境約束、地緣政治約束、工業落地約束、資本市場約束。它們提醒我，分析產業新聞時不要只看「誰推出了什麼」，要問：**誰控制了不可替代的邊界條件？誰承擔從願景到落地之間最難被看見的成本？**
 
 ## 提交資訊
 
-本次筆記已提交並推送；最終 commit SHA 以排程回報與 GitHub `main` 最新紀錄為準。
+本次筆記已提交並推送；最終 commit SHA 以 GitHub `main` 最新紀錄為準。
