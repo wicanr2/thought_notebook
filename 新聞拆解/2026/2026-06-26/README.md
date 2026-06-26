@@ -28,6 +28,7 @@
 - 入選：[經濟日報／財訊日月光吳田玉](https://money.udn.com/money/story/5612/9589278)。可抽象成「供應鏈社會資本」模型。
 - 入選：[Latitude Media 資料中心與輸電](https://www.latitudemedia.com/news/catalyst-how-data-centers-are-complicating-transmission-expansion/)。少見地從費率制度看 AI 基建，和單純耗電新聞不同。
 - 入選：[Reuters／Yahoo IBM 次奈米技術](https://www.yahoo.com/news/articles/ibm-unveils-tech-chip-smaller-101203879.html)。技術敘事完整，有突破、數字、競爭者與量產不確定性。
+- 加入：[盤後｜四大報如何切 6/26 台股崩跌](./06-盤後-四大報如何切台股崩跌.md)。同日跨媒體切角差異明顯，適合做盤後敘事結構樣本。
 - 未入選：[Reuters｜Micron overtakes Meta, Tesla in market value](https://www.reuters.com/business/micron-overtakes-meta-market-value-amid-relentless-ai-infrastructure-demand-2026-06-25/)。題材重要，但本日已有 AI 晶片繁榮與分配的 NYT 文，避免重複資本市場角度。
 - 未入選：[Reuters｜After Anthropic shutdown, China's Z.ai closes frontier gap](https://www.reuters.com/world/asia-pacific/after-anthropic-shutdown-chinas-zai-closes-frontier-gap-it-plans-dual-listing-2026-06-25/)。主題有價值，但本輪原文擷取不完整，暫不硬寫。
 - 未入選：多篇台股 AI 鏈、個股漲停與券商喊買新聞。資訊多偏交易面，較不適合作為文章結構拆解樣本。
