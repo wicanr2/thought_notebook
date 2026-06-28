@@ -13,3 +13,7 @@
   - 類型：使用者指定延伸查詢與專題筆記。
   - 主題：Amazon Proteus、DeepFleet、Industrial Innovation Fund、BlackBerry QNX、RTOS、deterministic control、Physical AI、倉儲機器人安全層。
 
+- [Sakana Fugu 初步調查：當「模型」變成模型群的指揮官](./04-sakana-fugu-模型編排初步調查.md)
+  - 類型：使用者指定初步調查，並讀風傳媒文章、Sakana AI 官方發布 / 產品 / Console 文件、arXiv 技術報告與 GitHub repo。
+  - 主題：Sakana Fugu、Fugu Ultra、模型編排、multi-agent orchestration、OpenAI 相容 API、AI 主權、供應商鎖定、orchestration token 成本。
+

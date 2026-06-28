@@ -5,6 +5,7 @@
 - [Hermes GPT v0.3.0、MCP 與「突破 Codex 配額」敘事](./2026-06-28/01-hermes-gpt-mcp與codex配額敘事.md)
 - [高通自製 CPU 對 MTK 的衝擊：2026 最新資料、SWOT 與 DD](./2026-06-28/02-高通自製cpu對mtk衝擊-swot-dd.md)
 - [Amazon 倉儲機器人與 QNX：實體 AI 的安全軟體層](./2026-06-28/03-amazon-qnx-實體ai機器人安全層.md)
+- [Sakana Fugu 初步調查：模型群的指揮官](./2026-06-28/04-sakana-fugu-模型編排初步調查.md)
 
 ## 2026-06-25
 
