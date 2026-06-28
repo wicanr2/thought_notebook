@@ -9,3 +9,7 @@
   - 類型：使用者指定獨立專題筆記。
   - 主題：高通 Oryon 自製 CPU、Snapdragon 8 Elite Gen 5、MediaTek Dimensity 9500、2026 AP/SoC 出貨份額、營收份額、高階 ASP、SWOT、DD。
 
+- [Amazon 倉儲機器人與 QNX：從「會動的 AI」看實體 AI 的安全軟體層](./03-amazon-qnx-實體ai機器人安全層.md)
+  - 類型：使用者指定延伸查詢與專題筆記。
+  - 主題：Amazon Proteus、DeepFleet、Industrial Innovation Fund、BlackBerry QNX、RTOS、deterministic control、Physical AI、倉儲機器人安全層。
+
