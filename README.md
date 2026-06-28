@@ -26,8 +26,9 @@
 
 ### 論文拆解
 
-- 最新日期：[2026-06-27](./論文拆解/2026/2026-06-27/README.md)
-- 近期：[When Does Combining Language Models Help?](./論文拆解/2026/2026-06-27/01-when-does-combining-language-models-help.md)
+- 最新日期：[2026-06-28](./論文拆解/2026/2026-06-28/README.md)
+- 近期：[LA4VLA: Learning to Act without Seeing via Language-Action Pretraining](./論文拆解/2026/2026-06-28/01-la4vla-language-action-pretraining.md)
+- 近期：[RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection](./論文拆解/2026/2026-06-28/02-routervla-smoke-tests-supervision.md)
 
 ### 近期快速連結（一個月內）
 
