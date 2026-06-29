@@ -12,3 +12,7 @@
   - 類型：使用者指定 GitHub repo / 開發者工具與基礎設施資源分析。
   - 來源：GitHub repo [`ripienaar/free-for-dev`](https://github.com/ripienaar/free-for-dev) 與網站 [`free-for.dev`](https://free-for.dev/)。
   - 主題：free tier、SaaS / PaaS / IaaS、DevOps 工具、新創 MVP stack、AI 專案低成本工具箱、社群維護清單治理。
+- [Rigs of Rods：把軟體車體物理當成 Physical AI 的「身體與接觸」章節](./04-rigs-of-rods-physical-ai-chapter.md)
+  - 類型：使用者指定 GitHub repo / Physical AI 專題章節筆記。
+  - 來源：GitHub repo [`RigsOfRods/rigs-of-rods`](https://github.com/RigsOfRods/rigs-of-rods)、官方文件與本機 shallow clone。
+  - 主題：soft-body physics、node-beam graph、車輛 / 機械模擬、terrain contact、AngelScript、VehicleAI、Autopilot、FreeForces / FreeBeams、Physical AI body/contact/control stack。
