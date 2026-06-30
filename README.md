@@ -26,8 +26,8 @@
 
 ### 論文拆解
 
-- 最新日期：[2026-06-29](./論文拆解/2026/2026-06-29/README.md)
-- 近期：[E-TTS](./論文拆解/2026/2026-06-29/01-e-tts-embodied-test-time-scaling.md)、[In-Context World Modeling](./論文拆解/2026/2026-06-29/02-in-context-world-modeling-robotic-control.md)
+- 最新日期：[2026-06-30](./論文拆解/2026/2026-06-30/README.md)
+- 近期：[SA-VLA](./論文拆解/2026/2026-06-30/01-sa-vla-state-aware-tokenizer.md)、[Automating Embodied Agent Architectures](./論文拆解/2026/2026-06-30/02-automating-embodied-agent-architectures.md)
 
 ### 其他筆記
 
@@ -36,6 +36,9 @@
 
 ## 近期快速連結（一個月內）
 
+- [2026-06-30 論文拆解索引](./論文拆解/2026/2026-06-30/README.md)
+  - 論文：[SA-VLA](./論文拆解/2026/2026-06-30/01-sa-vla-state-aware-tokenizer.md)
+  - 論文：[Automating Embodied Agent Architectures](./論文拆解/2026/2026-06-30/02-automating-embodied-agent-architectures.md)
 - [2026-06-30 新聞拆解索引](./新聞拆解/2026/2026-06-30/README.md)
   - 台灣：[科嶠 Brooks 晶圓傳載盒清洗設備](./新聞拆解/2026/2026-06-30/01-科嶠brooks晶圓傳載盒清洗設備.md)
   - 台灣：[台電高溫保供電與電網韌性](./新聞拆解/2026/2026-06-30/03-台電高溫保供電與電網韌性.md)
