@@ -14,7 +14,7 @@
 - Cloudflare：[Content Independence Day: no AI crawl without compensation!](https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/) — 說明傳統「搜尋引擎複製內容、回送流量」交換關係正在瓦解，AI 工具的 crawl-to-referral 比例更差。
 - Cloudflare：[Introducing pay per crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) — 提出以 HTTP 402、crawler 身分驗證與 publisher allow / charge / block 控制來重建內容存取交換。
 - OpenAI：[Overview of OpenAI Crawlers](https://platform.openai.com/docs/bots) — 區分 `OAI-SearchBot`、`GPTBot`、`ChatGPT-User` 等不同 bot 目的，可用 robots.txt 分別管理搜尋曝光與訓練用途。
-- arXiv / KDD 2024：[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) — 將 generative engine formalize 為新型資訊發現系統，提出 GEO，實驗中 visibility 最多可提升約 40%，且不同領域策略效果不同。
+- arXiv / KDD 2024：[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)（[PDF](https://arxiv.org/pdf/2311.09735)）— 將 generative engine formalize 為新型資訊發現系統，提出 GEO，實驗中 visibility 最多可提升約 40%，且不同領域策略效果不同。
 - llms.txt proposal：[The /llms.txt file](https://llmstxt.org/) — 提議網站提供 LLM 友善的 Markdown 導覽與精簡語境，但目前更像社群提案 / 最佳實務苗頭，不等於所有 AI 搜尋引擎都會採用的正式標準。
 
 ---
@@ -232,6 +232,36 @@ Cloudflare 的 pay-per-crawl 更進一步，把 allow / charge / block 放進網
 ```
 
 這也解釋了 arXiv 的 GEO paper 為什麼會強調不同領域要不同策略。因為醫療、金融、旅遊、B2B SaaS、開發者文件、電商商品頁，AI 需要的可信訊號與答案格式都不同。
+
+### 論文補充：`GEO: Generative Engine Optimization` 給這篇專題的實證支撐
+
+這篇 [GEO 論文](https://arxiv.org/abs/2311.09735)（[PDF](https://arxiv.org/pdf/2311.09735)）值得放進同一個專題，因為它把「生成式搜尋」從行銷圈口號，拉回一個可測量的資訊檢索問題。
+
+論文的基本設定是：傳統搜尋引擎給使用者一串排名連結；generative engine 則讀多個來源後，直接生成一段整合答案，並在答案中插入少量 citation。這讓「可見度」不再等於第幾名，而變成：
+
+- 來源內容有沒有被引用。
+- 被引用的位置靠前還是靠後。
+- 被引用時占答案多少篇幅。
+- 該來源對答案的主張是否有實際影響力。
+
+論文因此提出 GEO-bench：一組約 10K queries、跨多個 domain / intent / difficulty 的 benchmark，用來測試不同內容修改策略是否能提升 generative engine response 裡的 source visibility。
+
+對這篇筆記最重要的幾個結果：
+
+1. **GEO 不是玄學，至少可以被實驗化。** 論文把 visibility 拆成 metrics，例如 position-adjusted word count 與 subjective impression，而不是只說「感覺 AI 比較喜歡」。
+2. **傳統 keyword stuffing 不再有效，甚至可能變差。** 論文在實驗中把 keyword stuffing 當成傳統 SEO 對照組，結果不如引用、統計、流暢度等策略。
+3. **最有效的策略偏向「證據強化」。** Cite Sources、Quotation Addition、Statistics Addition 在 GEO-bench 上有明顯改善；論文摘要與結果段落提到 visibility 可提升到約 40%，在 Perplexity.ai 這類真實 generative engine 上也觀察到最高約 37% 的改善。
+4. **不同 domain 需要不同策略。** 例如 factual questions 更吃 citations；law / government、opinion 類問題較受 statistics 幫助；people / society、history、explanation 類問題中，quotation 的作用更明顯。
+5. **內容呈現也重要。** Fluency Optimization、Easy-to-Understand 這類不是新增事實、而是改善表達的策略，也能帶來可見度提升；這支持「降低 AI 理解成本」這個第一性原理。
+
+把它翻成小白能用的規則：
+
+```text
+不要問：我要塞哪些關鍵字讓 AI 看到我？
+要問：我要補哪些來源、數據、引用、定義、限制與清楚表達，讓 AI 更安全地採用我？
+```
+
+不過也要保留一個限制：這篇論文證明「某些內容改寫策略在實驗與部分真實 generative engine 上有效」，不等於所有平台永遠採用同一套權重。GEO 應該被視為一種可測量、可迭代的內容工程，而不是一次設定完就保證排名的公式。
 
 ---
 
@@ -658,6 +688,7 @@ OpenAI crawler 文件的啟示是：不要把所有 AI bot 當同一種東西。
 
 - 2026 SEO 的核心不是死亡，而是降級為 GEO 的底層可讀性與權威訊號。
 - GEO 的第一性原理是降低 AI 採用內容的成本：發現、理解、信任、整合、更新、行動。
+- `GEO: Generative Engine Optimization` 論文把 GEO 實驗化：GEO-bench 約 10K queries，顯示 citation、quotation、statistics、fluency 等策略比 keyword stuffing 更能提高 generative engine 中的 visibility，且效果依 domain / query type 改變。
 - 當 automated / AI bot 流量成為主流，網站不能再把所有 request 都視為同質流量；需要分辨 human、search crawler、AI search bot、training bot、user-triggered agent、bad bot。
 - 內容策略要從「流量頁」轉向「證據物件」：可引用、可驗證、可更新、可比較、可被 agent 執行下一步。
 - GEO 的 KPI 應包含 AI answer presence、citation share、shortlist rate、品牌描述正確性、branded demand、bot economics，而不只是 organic clicks。
