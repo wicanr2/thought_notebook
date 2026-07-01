@@ -1,6 +1,6 @@
 # 2026-07-01 論文拆解
 
-本日依「最多 2 篇、品質優先」規則新增 2 篇。兩篇皆屬 LLM / VLM / VLA 與 Robotics / Embodied AI 交會主題；本次閱讀範圍皆限 arXiv Summary/Abstract + Introduction，未讀 methods / experiments / results 章節。
+本日依「最多 2 篇、品質優先」規則新增 2 篇自動選文。另依使用者指定，額外加入 1 篇 speculative decoding 專欄；此專欄不計入每日自動選文上限。兩篇自動選文屬 LLM / VLM / VLA 與 Robotics / Embodied AI 交會主題；專欄聚焦 LLM inference / speculative decoding 趨勢。本次閱讀範圍皆明確標示，未讀 methods / experiments / results 章節。
 
 ## 今日選文
 
@@ -13,6 +13,13 @@
    - arXiv：2606.30613v1
    - 選擇理由：用 training-free neurosymbolic manipulation system 對照端到端 VLA 與 Code-as-Policy，提出把 test-time compute 優先花在 perception grounding 而非重寫 plan 的設計判斷。
    - 閱讀範圍：Summary/Abstract + Introduction。
+
+## 使用者指定專欄
+
+3. [專欄｜Speculative Speculative Decoding：LLM 推論加速正在從「模型更小」轉向「時間軸重排」](./03-speculative-speculative-decoding-column.md)
+   - arXiv：2603.03251v3
+   - 收錄理由：使用者指定整理 speculative decoding 趨勢；本篇作為額外專欄，不計入每日自動選文上限。
+   - 閱讀範圍：arXiv metadata、Abstract、Introduction，並額外快速掃描 Related Work 題名層級與 arXiv metadata 趨勢。
 
 ## Commit 狀態
 
