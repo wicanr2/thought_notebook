@@ -25,8 +25,8 @@
 
 ### 論文拆解
 
-- 最新日期：[2026-07-01](./論文拆解/2026/2026-07-01/README.md)
-- 近期：[ZR-0 Dense ECoT VLA](./論文拆解/2026/2026-07-01/01-zr-0-dense-ecot-vla.md)、[SPARK Anchored Robotic Keypoints](./論文拆解/2026/2026-07-01/02-spark-anchored-robotic-keypoints.md)、[Speculative Speculative Decoding 專欄](./論文拆解/2026/2026-07-01/03-speculative-speculative-decoding-column.md)
+- 最新日期：[2026-07-02](./論文拆解/2026/2026-07-02/README.md)
+- 近期：[Human-as-Humanoid](./論文拆解/2026/2026-07-02/01-human-as-humanoid-ego-exo-vla.md)、[Z-1 RL for VLA](./論文拆解/2026/2026-07-02/02-z-1-rl-for-vla.md)
 
 ### 其他筆記
 
@@ -42,6 +42,8 @@
 - [2026-07-01 新聞拆解索引](./新聞拆解/2026/2026-07-01/README.md)
   - 台灣：[台灣記憶體廠抗韓流](./新聞拆解/2026/2026-07-01/01-台灣記憶體廠抗韓流.md)、[PChome 拍錢包勒索軟體事件](./新聞拆解/2026/2026-07-01/02-pchome拍錢包勒索軟體事件.md)
   - 國外：[AI 瀏覽器夢境攻擊](./新聞拆解/2026/2026-07-01/04-ai瀏覽器夢境攻擊.md)
+- [2026-07-02 論文拆解索引](./論文拆解/2026/2026-07-02/README.md)
+  - 論文：[Human-as-Humanoid](./論文拆解/2026/2026-07-02/01-human-as-humanoid-ego-exo-vla.md)、[Z-1 RL for VLA](./論文拆解/2026/2026-07-02/02-z-1-rl-for-vla.md)
 - [2026-06-30 新聞拆解索引](./新聞拆解/2026/2026-06-30/README.md)
   - 台灣：[科嶠 Brooks 晶圓傳載盒清洗設備](./新聞拆解/2026/2026-06-30/01-科嶠brooks晶圓傳載盒清洗設備.md)
   - 國外：[BIS 警告 AI 投資過熱](./新聞拆解/2026/2026-06-30/04-bis警告ai投資過熱與金融脆弱.md)、[Ford 重聘人類品管工程師](./新聞拆解/2026/2026-06-30/05-ford重聘人類品管工程師與ai邊界.md)
