@@ -1,5 +1,9 @@
 # 2026 其他筆記索引
 
+## 2026-07-06
+
+- [Physical AI 安全平台專欄｜NVIDIA Halos for Robotics：安全平台不是一個套件，而是一整條責任鏈](./2026-07-06/01-nvidia-halos-physical-ai-safety-platform.md)
+
 ## 2026-07-01
 
 - [聯發科 2025 各 BU 營收比重：從公開揭露反推，而不是把產品名直接當組織名](./2026-07-01/01-聯發科2025各bu營收比重.md)
