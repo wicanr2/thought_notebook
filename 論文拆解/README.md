@@ -4,6 +4,7 @@
 
 ## 最新日期
 
+- [2026-07-08](./2026/2026-07-08/README.md)
 - [2026-07-07](./2026/2026-07-07/README.md)
 
 ## 年度索引
@@ -12,6 +13,7 @@
 
 ## 2026
 
+- [2026-07-08｜Semantic Handoff；LingBot-VLA 2.0](./2026/2026-07-08/README.md)
 - [2026-07-07｜HiMe；ResTacVLA](./2026/2026-07-07/README.md)
 - [2026-07-06｜CaP-X；The Moving Eye](./2026/2026-07-06/README.md)
 - [2026-07-05｜Embodied.cpp；Task-Agnostic pretraining for VLAs](./2026/2026-07-05/README.md)
