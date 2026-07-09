@@ -4,6 +4,7 @@
 
 ## 日期索引
 
+- [2026-07-09｜LaMem-VLA；EmbodiedGen V2](./2026-07-09/README.md)
 - [2026-07-08｜Semantic Handoff；LingBot-VLA 2.0](./2026-07-08/README.md)
 - [2026-07-07｜HiMe；ResTacVLA](./2026-07-07/README.md)
 - [2026-07-06｜CaP-X；The Moving Eye](./2026-07-06/README.md)
