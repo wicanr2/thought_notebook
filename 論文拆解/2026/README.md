@@ -4,6 +4,7 @@
 
 ## 日期索引
 
+- [2026-07-11｜Native Video-Action Pretraining；Latent Memory Palace](./2026-07-11/README.md)
 - [2026-07-09｜LaMem-VLA；EmbodiedGen V2](./2026-07-09/README.md)
 - [2026-07-08｜Semantic Handoff；LingBot-VLA 2.0](./2026-07-08/README.md)
 - [2026-07-07｜HiMe；ResTacVLA](./2026-07-07/README.md)
