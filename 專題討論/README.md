@@ -4,4 +4,5 @@
 
 ## 專題列表
 
+- [AI Real Economy](./AI-Real-Economy/README.md) — AI 進入實體經濟後的工業部署、Physical AI、能源約束、資本架構與地緣政治。
 - [Algorithmic Trading](./Algorithmic-Trading/README.md) — 演算法交易、市場微結構、VWAP / TWAP、訂單拆分與盤面資料解讀。
