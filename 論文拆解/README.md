@@ -4,9 +4,9 @@
 
 ## 最新日期
 
+- [2026-07-15](./2026/2026-07-15/README.md)
 - [2026-07-14](./2026/2026-07-14/README.md)
 - [2026-07-13](./2026/2026-07-13/README.md)
-- [2026-07-12](./2026/2026-07-12/README.md)
 
 ## 年度索引
 
@@ -14,6 +14,7 @@
 
 ## 2026
 
+- [2026-07-15｜VistaVLA；Jetson-PI](./2026/2026-07-15/README.md)
 - [2026-07-14｜CLAP；GenVid2Robot；RLPrompt（指定補讀）](./2026/2026-07-14/README.md)
 - [2026-07-13｜Learning More from Less；LDT-Coord](./2026/2026-07-13/README.md)
 - [2026-07-12｜Harness VLA；FabriVLA](./2026/2026-07-12/README.md)
